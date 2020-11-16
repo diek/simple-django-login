@@ -24,12 +24,12 @@ An updated version of Vitor Freitas' Django login Example [How to Use Django's B
 
 ### 5. Rename sample.env to .env 
 
-### 6. Generate a SECRET_KEY and copy/paste to .env
-    Run the Django shell:  
-    `(_env)$ python3 manage.py shell`  
-    `>>> from django.core.management import utils`  
-    `>>> utils.get_random_secret_key()`  
-    `'83^(ny%q89b5q^r955^!d*lw*pv0t*5-qoiwa1q+d2@+n7nlm@'`  
+### 6. Generate a SECRET_KEY and copy/paste to .env, use the Django shell:
+
+    (_env)$ python3 manage.py shell  
+    >>> from django.core.management import utils  
+    >>> utils.get_random_secret_key()  
+    '83^(ny%q89b5q^r955^!d*lw*pv0t*5-qoiwa1q+d2@+n7nlm@'  
     
 
 ### 3.Run migrations(makemigrations not needed because there are no apps):  
