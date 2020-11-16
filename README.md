@@ -3,13 +3,36 @@
 An updated version of Vitor Freitas' Django login Example [How to Use Django's Built-in Login System](https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html) at [simpleisbetterthancomplex.com](https://simpleisbetterthancomplex.com).  
 
 
-## How do I run this project locally?  
+## Run this project locally 
 
 ### 1. Clone the repository:  
 
     git clone git@github.com:diek/simple-django-login.git  
 
-### 2. Run migrations(makemigrations not needed because there are no apps):  
+### 2. CD into simple-django-login 
+
+### 3. Create and Activate a Venv (for Windows - see Python documentation):  
+
+    python3 -m venv _env  
+    source _env/bin/activate  
+
+### 4. Pip install Django and other requirements:  
+
+    (_env)$ pip install --upgrade pip
+    (_env)$ pip install -r requirements 
+
+
+### 5. Rename sample.env to .env 
+
+### 6. Generate a SECRET_KEY and copy/paste to .env
+    Run the Django shell:  
+    `(_env)$ python3 manage.py shell`  
+    `>>> from django.core.management import utils`  
+    `>>> utils.get_random_secret_key()`  
+    `'83^(ny%q89b5q^r955^!d*lw*pv0t*5-qoiwa1q+d2@+n7nlm@'`  
+    
+
+### 3.Run migrations(makemigrations not needed because there are no apps):  
 
     python manage.py migrate  
 
