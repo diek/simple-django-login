@@ -32,17 +32,17 @@ An updated version of Vitor Freitas' Django login Example [How to Use Django's B
     '83^(ny%q89b5q^r955^!d*lw*pv0t*5-qoiwa1q+d2@+n7nlm@'  
     
 
-### 3.Run migrations(makemigrations not needed because there are no apps):  
+### 7.Run migrations(makemigrations not needed because there are no apps):  
 
     python manage.py migrate  
 
-### 3. Create a user:
+### 8. Create a user:
 
     python manage.py createsuperuser
 
-### 4. Run the server:
+### 9. Run the server:
 
     python manage.py runserver
 
-### 5. And open 127.0.0.1:8000/login in your web browser.
+### 10. And open 127.0.0.1:8000/login in your web browser.
 
