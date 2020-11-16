@@ -1,29 +1,25 @@
-## What's this repository about?
+## What's this repository about?  
 
-An updated version of Vitor Django login Example [How to Use Django's Built-in Login System][blog-post] at [simpleisbetterthancomplex.com][blog].
+An updated version of Vitor Freitas' Django login Example [How to Use Django's Built-in Login System](https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html) at [simpleisbetterthancomplex.com](https://simpleisbetterthancomplex.com).  
 
 
-## How do I run this project locally?
+## How do I run this project locally?  
 
-### 1. Clone the repository:
+### 1. Clone the repository:  
 
-    git clone https://github.com/sibtc/simple-django-login.git
+    git clone git@github.com:diek/simple-django-login.git  
 
-### 2. Run migrations:
+### 2. Run migrations(makemigrations is not needed because there are no apps:  
 
-    python manage.py migrate
+    python manage.py migrate  
 
-### 3. Run migrations:
-
-    python manage.py migrate
-
-### 4. Create a user:
+### 3. Create a user:
 
     python manage.py createsuperuser
 
-### 5. Run the server:
+### 4. Run the server:
 
     python manage.py runserver
 
-### 6. And open 127.0.0.1:8000/login in your web browser.
+### 5. And open 127.0.0.1:8000/login in your web browser.
 
