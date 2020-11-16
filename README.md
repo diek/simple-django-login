@@ -9,7 +9,7 @@ An updated version of Vitor Freitas' Django login Example [How to Use Django's B
 
     git clone git@github.com:diek/simple-django-login.git  
 
-### 2. Run migrations(makemigrations is not needed because there are no apps:  
+### 2. Run migrations(makemigrations not needed because there are no apps):  
 
     python manage.py migrate  
 
